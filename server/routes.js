@@ -10,8 +10,6 @@ module.exports = function(app) {
 
   // Insert routes below
   app.use('/api/feedback', require('./api/feedback'));
-  app.use('/api/users', require('./api/user'));
-  app.use('/auth', require('./auth'));
   
 
   // All other routes should return not implemented
