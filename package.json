@@ -1,5 +1,5 @@
 {
-  "name": "slack-feedback",
+  "name": "feed-slack",
   "version": "1.0.0",
   "main": "server/app.js",
   "dependencies": {
