@@ -28,9 +28,9 @@ exports.create = function (req, resp, next) {
             ]
         }
     }, (e, r) => {
-        resp.status(200).send({
-            e: e,
-            r: r
-        });
+        if(e) {
+            resp.status(500).end();
+        }
+        resp.status(200).end();
     })
 };
